@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SbSwaggerUiRestApiApplication {
-
-	public static void main(String[] args) {
+	public static final String PAYMENT_URL="http://localhost:8080/emp"; 
+public static void main(String[] args) {
 		SpringApplication.run(SbSwaggerUiRestApiApplication.class, args);
 	}
 
