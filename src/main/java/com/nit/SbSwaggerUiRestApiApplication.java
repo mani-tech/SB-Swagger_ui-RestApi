@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SbSwaggerUiRestApiApplication {
 	public static final String PAYMENT_URL="http://localhost:8080/emp"; 
 public static void main(String[] args) {
-		SpringApplication.run(SbSwaggerUiRestApiApplication.class, args);
+System.out.println("hello featre-201");
+SpringApplication.run(SbSwaggerUiRestApiApplication.class, args);
 	}
 
 }
