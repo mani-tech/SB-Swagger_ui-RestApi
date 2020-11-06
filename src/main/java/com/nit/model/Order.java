@@ -6,6 +6,7 @@ private int oid;
 private String prodName;
 private int quantity;
 private String date;
+private String deliveryDate;
 public Order() {
 	super();
 }
@@ -32,6 +33,13 @@ public String getDate() {
 }
 public void setDate(String date) {
 	this.date = date;
+}
+
+public String getDeliveryDate() {
+	return deliveryDate;
+}
+public void setDeliveryDate(String deliveryDate) {
+	this.deliveryDate = deliveryDate;
 }
 @Override
 public String toString() {
