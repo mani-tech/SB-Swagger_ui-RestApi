@@ -2,7 +2,7 @@ package com.nit.model;
 
 public class Order {
 	
-private int oid;
+private int orderid;
 private String prodName;
 private int quantity;
 private String date;
@@ -10,11 +10,11 @@ private String deliveryDate;
 public Order() {
 	super();
 }
-public int getOid() {
-	return oid;
+public int getorderid() {
+	return orderid;
 }
-public void setOid(int oid) {
-	this.oid = oid;
+public void setorderid(int orderid) {
+	this.orderid = orderid;
 }
 public String getProdName() {
 	return prodName;
@@ -43,7 +43,7 @@ public void setDeliveryDate(String deliveryDate) {
 }
 @Override
 public String toString() {
-	return "Order [oid=" + oid + ", prodName=" + prodName + ", quantity=" + quantity + ", date=" + date + "]";
+	return "Order [orderid=" + orderid + ", prodName=" + prodName + ", quantity=" + quantity + ", date=" + date + "]";
 } 
 
 }
